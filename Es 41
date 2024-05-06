@@ -1,0 +1,2 @@
+Il malware utilizza le librerie RegOpenKey e RegSetValueEX per ottenere la persistenza aprendo, con la prima, la chiave di registro Software\\Microsoft\\Windows\\CurrentVersion\\Run per poi modificarla, con la seonda per inserire un nuovo valore all’interno della stessa.
+Poi utilizza Explorer per connettersi ad internet all’URL   www.malware12.com passandolo come parametro dello stack con una push.
